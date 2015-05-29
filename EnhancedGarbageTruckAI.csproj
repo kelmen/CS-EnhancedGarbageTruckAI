@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
@@ -7,7 +7,8 @@
     <OutputType>Library</OutputType>
     <RootNamespace>EnhancedGarbageTruckAI</RootNamespace>
     <AssemblyName>EnhancedGarbageTruckAI</AssemblyName>
-    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <Optimize>false</Optimize>
@@ -59,8 +60,8 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\SkylinesOverwatch\SkylinesOverwatch.csproj">
-      <Project>{8C40A7D8-724B-40D9-A149-C938CB210E3C}</Project>
+    <ProjectReference Include="..\CS-SkylinesOverwatch\SkylinesOverwatch.csproj">
+      <Project>{8c40a7d8-724b-40d9-a149-c938cb210e3c}</Project>
       <Name>SkylinesOverwatch</Name>
       <Private>False</Private>
     </ProjectReference>
