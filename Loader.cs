@@ -14,10 +14,13 @@ namespace EnhancedGarbageTruckAI
     {
         Helper _helper;
 
-        public void OnCreated(ILoading loading)
+        public Loader()
         {
             _helper = Helper.Instance;
+        }
 
+        public void OnCreated(ILoading loading)
+        {
             _helper.GameLoaded = loading.loadingComplete;
         }
 
