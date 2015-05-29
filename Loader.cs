@@ -32,10 +32,8 @@ namespace EnhancedGarbageTruckAI
             _helper.GameLoaded = false;
         }
 
-
         public void OnReleased()
         {
-            throw new NotImplementedException();
         }
     }
 }
